@@ -1,12 +1,12 @@
 #!/bin/sh
 
-echo "You are happy?"
+echo "is this different?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+   echo "Surprised :O"
 else
-   echo "Still Smile :)"
+   echo "sad :("
 fi
 
 # here are the other string comparison operators
